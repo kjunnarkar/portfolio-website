@@ -152,8 +152,8 @@ input, select, textarea {
 		}
 
 	body {
-		background-color: #ffffff;
-		color: #000000;
+		background-color: lightslategray; /* changed bg-color from white */
+		color: white; /* changed color from black */
 	}
 
 	body, input, select, textarea {
@@ -2186,7 +2186,7 @@ input, select, textarea {
 	input[type="button"],
 	button,
 	.button {
-		background-color: transparent;
+		background-color: white; /* changed from transparent */
 		box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
 		color: #000000 !important;
 	}
