@@ -48,8 +48,8 @@ table {
 }
 /* ************************** END OF CSS RESET *************************** */
 body {
-  color: blue;
-  background-color: black;
+  color: white;
+  background-color: blue;
 }
 a:hover {
   color: red;
@@ -68,17 +68,19 @@ a:hover {
 }
 .title-class {
   font-size: 5rem;
-  border-top: 1px solid grey;
+  border-top: 2px solid grey;
   display: flex;
   justify-content: center;
   padding-top: 3%;
   padding-bottom: 2%;
+  color: black;
 }
 .title-desc {
   display: flex;
   justify-content: center;
   font-size: 2rem;
   margin-bottom: 7%;
+  color: black;
 }
 .main-image {
   width: 20%;
@@ -150,7 +152,7 @@ a:hover {
   padding-bottom: 10%;
 }
 .footer-link {
-  border-top: 1px solid grey;
+  border-top: 2px solid grey;
   margin-top: 20%;
   margin-bottom: 3%;
   padding-top: 3%;

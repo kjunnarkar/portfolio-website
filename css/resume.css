@@ -49,7 +49,7 @@ table {
 /* ************************** END OF CSS RESET *************************** */
 body {
   color: white;
-  background-color: black;
+  background-color: blue;
 }
 a:hover {
   color: red;
@@ -67,16 +67,16 @@ a:hover {
   margin-left: 2%;
 }
 .title-class {
-  color: blue;
+  color: black;
   font-size: 5rem;
-  border-top: 1px solid grey;
+  border-top: 2px solid grey;
   display: flex;
   justify-content: center;
   padding-top: 3%;
   padding-bottom: 2%;
 }
 .title-desc {
-  color: blue;
+  color: black;
   display: flex;
   justify-content: center;
   font-size: 2rem;
@@ -84,6 +84,7 @@ a:hover {
 }
 .titles {
   margin-bottom: 2%;
+  font-weight: bold;
 }
 .headings {
   display: flex;
@@ -96,6 +97,7 @@ a:hover {
   margin-bottom: 3%;
   display: flex;
   justify-content: center;
+  font-weight: bold;
 }
 .desc-div {
   margin-bottom: 1%;
@@ -103,6 +105,7 @@ a:hover {
 }
 .desc {
   margin-left: 15%;
+  font-weight: bold;
 }
 .details {
   margin-left: 17%;
@@ -117,7 +120,7 @@ a:hover {
 }
 
 .footer-link {
-  border-top: 1px solid grey;
+  border-top: 2px solid grey;
   margin-top: 20%;
   margin-bottom: 3%;
   padding-top: 3%;
