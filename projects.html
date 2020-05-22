@@ -18,7 +18,7 @@
         <a class="a-items" href="./index.html">Home</a>
         <a class="a-items" href="./resume.html">Resume</a>
         <a class="a-items" href="./projects.html">Projects</a>
-        <a class="a-items" href="https://github.com/kjunnarkar?tab=repositories" target="_blank">GitHub</a>
+        <a class="a-items" href="https://github.com/kjunnarkar" target="_blank">GitHub</a>
         <a class="a-items" href="https://www.linkedin.com/in/kiran-junnarkar-a4ab96194" target="_blank">LinkedIn</a>
     </nav>
 
@@ -36,7 +36,7 @@
       <div class="cards">
         <h2 class=projects-title>Better Professor</h2>
         <p>Design and Build of Better Professor Marketing and About Pages</p>
-        <button class="button" onclick="document.location='https://betterprofessor-marketing.netlify.app/index.html'">View</button>
+        <button class="button" onclick="professor()">View</button>
       </div>
     </section>
 
@@ -45,7 +45,7 @@
       <div class="cards">
         <h2 class=projects-title>Muscle Pro</h2>
         <p>Design and Build of Muscle Pro React Application</p>
-        <button class="button" onclick="document.location='https://musclepro-react.netlify.app/'">View</button>
+        <button class="button" onclick="musclepro()">View</button>
       </div>
     </section>
 
@@ -54,9 +54,21 @@
       <div class="cards">
         <h2 class=projects-title>Use My Tech Stuff</h2>
         <p>Design and Build of Use My Tech Stuff React Application</p>
-        <button class="button" onclick="document.location='https://jolly-wing-a00ff5.netlify.app/'">View</button>
+        <button class="button" onclick="techstuff()">View</button>
       </div>
     </section>
+
+    <script>
+      function professor() {
+        window.open("https://betterprofessor-marketing.netlify.app/index.html");
+      }
+      function musclepro() {
+        window.open("https://musclepro-react.netlify.app/");
+      }
+      function techstuff() {
+        window.open("https://jolly-wing-a00ff5.netlify.app/");
+      }
+    </script>
     
     <footer>
       <a class="footer-link" href="mailto:kjunnarkar@yahoo.com">Contact Me</a>
